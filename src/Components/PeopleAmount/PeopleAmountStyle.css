@@ -1,0 +1,30 @@
+.peopleAmountContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
+}
+
+.peopleAmountContainer label {
+  margin-bottom: 0.4rem;
+  font-size: 16px;
+  line-height: 23.7px;
+  color: #5e7a7d;
+  font-weight: 700;
+}
+
+.peopleAmountContainer input {
+  text-align: right;
+  height: 48px;
+  border: none;
+  background-color: #f3f9fa;
+  outline: none;
+  font-size: 24px;
+  line-height: 35.54;
+  color: #00474b;
+  font-weight: 700;
+  background-image: url("../../assets/icon-person.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 19px;
+  padding-right: 17px;
+}

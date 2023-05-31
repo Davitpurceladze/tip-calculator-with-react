@@ -1,0 +1,44 @@
+.TipContainer {
+  margin: 32px;
+}
+
+.tipTitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #5e7a7d;
+  margin-bottom: 16px;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.buttonsContainer div,
+.buttonsContainer input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-basis: 45%;
+  /* box-sizing: border-box; */
+  height: 48px;
+  width: 16px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  border: none;
+  background-color: #00474b;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+#customTip {
+  display: flex;
+  align-content: center;
+  background-color: #f3f9fa;
+  text-align: center;
+  color: #00474b;
+}
