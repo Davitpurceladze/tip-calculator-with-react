@@ -1,4 +1,6 @@
 .outputContainer {
+  display: flex;
+  flex-direction: column;
   background-color: #00474b;
   margin: 32px 24px;
   border-radius: 15px;
@@ -7,7 +9,7 @@
 
 .reset {
   margin: 35px 22px 24px 24px;
-  width: 281px;
+  width: auto;
   height: 48px;
   border: none;
   border-radius: 5px;
@@ -16,4 +18,15 @@
   color: #00474b;
   font-weight: 700;
   font-family: monospace;
+  cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+  .outputContainer {
+    height: auto;
+    min-width: 413px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

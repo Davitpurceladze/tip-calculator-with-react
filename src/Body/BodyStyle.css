@@ -3,4 +3,22 @@
   height: 100vh;
   width: 100%;
   padding-top: 32px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+@media (min-width: 1000px) {
+  .bodyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 920px;
+    margin: auto;
+    border-radius: 25px;
+    max-height: 481px;
+  }
+
+  /* .inputContainer {
+    padding: 0;
+  } */
 }

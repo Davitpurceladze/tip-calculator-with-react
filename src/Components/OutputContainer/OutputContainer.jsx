@@ -4,8 +4,10 @@ import OutputLayout from "./OutputLayout/OutputLayout";
 function OutputContainer() {
   return (
     <div className="outputContainer">
-      <OutputLayout></OutputLayout>
-      <OutputLayout></OutputLayout>
+      <div>
+        <OutputLayout></OutputLayout>
+        <OutputLayout></OutputLayout>
+      </div>
       <button className="reset">RESET</button>
     </div>
   );

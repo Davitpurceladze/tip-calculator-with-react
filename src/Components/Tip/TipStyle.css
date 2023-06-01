@@ -40,4 +40,12 @@
   background-color: #f3f9fa;
   text-align: center;
   color: #00474b;
+  outline: none;
+}
+
+@media (min-width: 1000px) {
+  .buttonsContainer div,
+  .buttonsContainer input {
+    flex-basis: 30%;
+  }
 }

@@ -7,9 +7,11 @@ import OutputContainer from "../Components/OutputContainer/OutputContainer";
 function Body() {
   return (
     <div className="bodyContainer">
-      <BillInput></BillInput>
-      <Tip></Tip>
-      <PeopleAmount></PeopleAmount>
+      <div className="inputContainer">
+        <BillInput></BillInput>
+        <Tip></Tip>
+        <PeopleAmount></PeopleAmount>
+      </div>
       <OutputContainer></OutputContainer>
     </div>
   );

@@ -1,10 +1,10 @@
-.inputContainer {
+.billInputContainer {
   display: flex;
   flex-direction: column;
   margin: 32px;
 }
 
-.inputContainer label {
+.billInputContainer label {
   margin-bottom: 0.4rem;
   font-size: 16px;
   line-height: 23.7px;
@@ -12,7 +12,7 @@
   font-weight: 700;
 }
 
-.inputContainer input {
+.billInputContainer input {
   text-align: right;
   height: 48px;
   border: none;
@@ -27,4 +27,7 @@
   background-position: left;
   background-position-x: 19px;
   padding-right: 17px;
+}
+
+@media (min-width: 1000px) {
 }
