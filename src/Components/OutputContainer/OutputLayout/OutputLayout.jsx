@@ -1,14 +1,14 @@
 import OutputLayoutStyle from "./OutputLayoutStyle.css";
 
-function OutputLayout() {
+function OutputLayout(props) {
   return (
     <div className="outputLayout">
       <div>
-        <p className="TipAmount">Tip Amount</p>
+        <p className="TipAmount">{props.outputName}</p>
         <p className="person">/ person</p>
       </div>
       <div>
-        <p className="output">$4.25</p>
+        <p className="output"> {props.billAmount}</p>
       </div>
     </div>
   );

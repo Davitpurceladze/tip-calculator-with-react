@@ -43,6 +43,11 @@
   outline: none;
 }
 
+.buttonsContainer div:hover {
+  background-color: #9fe8df;
+  color: #00474b;
+}
+
 @media (min-width: 1000px) {
   .buttonsContainer div,
   .buttonsContainer input {

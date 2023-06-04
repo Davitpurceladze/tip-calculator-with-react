@@ -28,3 +28,16 @@
   background-position-x: 19px;
   padding-right: 17px;
 }
+
+.peopleAmountContainer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PeopleErrorText {
+  color: #e17457;
+  font-size: 16px;
+  font-weight: 700;
+}
